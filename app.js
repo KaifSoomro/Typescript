@@ -1,11 +1,8 @@
 "use strict";
+// Basic types
 Object.defineProperty(exports, "__esModule", { value: true });
-var a = 10;
-function kaif() {
-    console.log("ok");
-    return 0;
-}
-function play() {
-    console.log("hey there");
-}
+//Primitives and Reference
+// Reference: [], {}, () ----> Ye lag gaye means parent per changing hogi
+let a = 12; // ----> Primitive
+let b = [1, 2, 3, 4, 5]; // ----> Reference 
 //# sourceMappingURL=app.js.map

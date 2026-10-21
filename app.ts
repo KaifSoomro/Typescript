@@ -1,10 +1,8 @@
-var a = 10;
+// Basic types
 
-function kaif(){
-    console.log("ok");
-    return 0;
-}
+//Primitives and Reference
 
-function play(){
-    console.log("hey there");
-}
+// Reference: [], {}, () ----> Ye lag gaye means parent per changing hogi
+
+let a = 12; // ----> Primitive
+let b = [1,2,3,4,5]; // ----> Reference 
