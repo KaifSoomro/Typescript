@@ -14,12 +14,20 @@
 
 // =========== Enums ===========
 
-enum UserRoles {
-  ADMIN = "admin",
-  USER = "user",
-  SUPER_ADMIN = "super_admin",
-}
+// enum UserRoles {
+//   ADMIN = "admin",
+//   USER = "user",
+//   SUPER_ADMIN = "super_admin",
+// }
 
-const user:string = UserRoles.USER;
+// const user:string = UserRoles.USER;
 
-console.log(user);
+// console.log(user);
+
+// ========= Type Inference =========
+
+// let a = 12; -------> Automatic detects the type
+
+// =========== Type Annotations ========
+
+// let a: number = 12; 
