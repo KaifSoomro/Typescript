@@ -30,7 +30,7 @@
 
 // =========== Type Annotations ========
 
-// let a: number = 12; 
+// let a: number = 12;
 
 // =============== Interfaces ===========
 
@@ -45,7 +45,30 @@
 // function getObj(obj: User){
 
 //   console.log(obj);
-  
+
 // }
 
 // getObj({name: "kaif", email: "kaif@gmail.com", password: "123", age: 20});
+
+//  =============== Extends ===================
+
+// interface User {
+//   name: string;
+//   email: string;
+//   password: string;
+// }
+
+// interface Admin extends User {
+//   admin: boolean;
+// }
+
+// function showAdmin(admin: Admin) {
+//   console.log(admin);
+// }
+
+// showAdmin({
+//   name: "kaif",
+//   email: "kaif@gmail.com",
+//   password: "123",
+//   admin: true,
+// });

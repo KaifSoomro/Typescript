@@ -1,8 +1,13 @@
 "use strict";
 // Basic types
 Object.defineProperty(exports, "__esModule", { value: true });
-function getObj(obj) {
-    console.log(obj);
+function showAdmin(admin) {
+    console.log(admin);
 }
-getObj({ name: "kaif", email: "kaif@gmail.com", password: "123", age: 20 });
+showAdmin({
+    name: "kaif",
+    email: "kaif@gmail.com",
+    password: "123",
+    admin: true,
+});
 //# sourceMappingURL=app.js.map
