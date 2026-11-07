@@ -87,3 +87,18 @@
 // function abcd(obj: value){
  
 // }
+
+
+// =========== Intersection types ===========
+
+// type User = {
+//     name: string;
+//     email: string;
+// }
+
+// type Admin = User & {
+//     getDetails(user: string): void;
+// }
+
+// function abcd(obj: Admin) {
+// }
