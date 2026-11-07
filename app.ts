@@ -72,3 +72,18 @@
 //   password: "123",
 //   admin: true,
 // });
+
+
+// ============= Type Aliases ============
+
+// type value = number;
+
+// let a: value;
+
+// -----------------------
+
+// type value = string | number | boolean;
+
+// function abcd(obj: value){
+ 
+// }
