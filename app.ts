@@ -31,3 +31,21 @@
 // =========== Type Annotations ========
 
 // let a: number = 12; 
+
+// =============== Interfaces ===========
+
+// interface User {
+//     name: string,
+//     email: string,
+//     password: string,
+//     age: number,
+//     gender?: string // optional with ?
+// }
+
+// function getObj(obj: User){
+
+//   console.log(obj);
+  
+// }
+
+// getObj({name: "kaif", email: "kaif@gmail.com", password: "123", age: 20});
