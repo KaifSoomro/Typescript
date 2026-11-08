@@ -85,6 +85,7 @@
 // type value = string | number | boolean;
 
 // function abcd(obj: value){
+
  
 // }
 
@@ -102,3 +103,15 @@
 
 // function abcd(obj: Admin) {
 // }
+
+// ================== Classes and Objects ==============
+
+class Car {
+    constructor(public name: string, public price: number){
+
+    }
+}
+
+let c1 = new Car("BMW", 2023432);
+
+console.log(c1);
